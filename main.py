@@ -15,8 +15,7 @@ def connect_to_database():
             host='127.0.0.1',
             port=3306,
             database='dbt6',
-            user='root',
-            password='ваш_пароль'  # Укажите свой пароль
+            user='root'
         )
         return connection
     except mysql.connector.Error as err:
